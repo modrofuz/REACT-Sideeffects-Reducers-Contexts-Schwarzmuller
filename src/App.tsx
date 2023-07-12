@@ -18,9 +18,8 @@ function App() {
 
 
     function onLogoutHandler() {
-        setIsLoggedIn(false);
         localStorage.setItem('isLoggedIn', '0');
-
+        setIsLoggedIn(false);
     }
 
     function onLoginHandler(formContent: any/*email: string, password: string*/) {
